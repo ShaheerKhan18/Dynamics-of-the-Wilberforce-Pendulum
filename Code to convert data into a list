@@ -1,0 +1,17 @@
+# Use this code to convert the data you get in csv to a list. You can plot lists easily. Replace your data
+
+data_str = """
+1
+2
+3
+4
+5
+6
+8
+
+"""
+
+# Convert to a list of floats
+data_list = [float(line) for line in data_str.strip().splitlines()]
+
+print(data_list)
